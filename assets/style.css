@@ -1,0 +1,107 @@
+.wrapper {
+  width: 100% font-family "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  font-family: "Georgia", Times, Times New Roman, serif;
+  background-color: #ffffff;
+  padding: 3em 0 3em 0;
+  border-bottom: 2pt;
+  border-style: solid;
+  border-color: #cccccc;
+}
+
+.Name {
+  font-size: 20pt;
+  position: absolute;
+  float: left;
+  color: white;
+  background-color: #4aaaa5;
+  top: 0;
+  left: 4em;
+  padding: 1.32em;
+}
+
+.linkMenu {
+  float: left;
+  margin-left: 70%;
+  color: #080707;
+}
+
+article {
+  font-size: 12pt;
+  width: 630px;
+  float: left;
+  background-color: #ffffff;
+  margin: 4em;
+  padding: 2em;
+  height: 100%;
+}
+
+/* h1 {
+  color: #4aaaa5;
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+} */
+
+.me {
+  width: 15em;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+textarea {
+  height: 10em;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  color: #cccccc;
+}
+
+.image {
+  position: relative;
+}
+
+.meA {
+  position: relative;
+  width: 15em;
+  float: left;
+}
+
+.meB {
+  position: relative;
+  width: 15em;
+  float: left;
+  margin: auto;
+  margin-left: 50px;
+}
+
+.captionA {
+  text-align: center;
+  position: absolute;
+  top: 190px;
+  left: 0;
+  width: 245px;
+  height: 30px;
+  color: #080707;
+  background-color: #4aaaa5;
+}
+
+.captionB {
+  text-align: center;
+  position: absolute;
+  top: 190px;
+  right: 0;
+  width: 250px;
+  height: 30px;
+  color: #0c0b0b;
+  background-color: #4aaaa5;
+}
