@@ -38,17 +38,6 @@ article {
   height: 100%;
 }
 
-/* h1 {
-  color: #4aaaa5;
-  display: block;
-  font-size: 2em;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-} */
-
 .me {
   width: 15em;
   float: left;
@@ -68,6 +57,7 @@ input {
 
 .image {
   position: relative;
+  height: 50px;
 }
 
 .meA {
@@ -84,12 +74,21 @@ input {
   margin-left: 50px;
 }
 
+.meC {
+  position: relative;
+  width: 15em;
+  /* float: right; */
+  /* margin: auto; */
+  margin-left: 4px;
+  top: 70px;
+}
+
 .captionA {
   text-align: center;
   position: absolute;
   top: 190px;
   left: 0;
-  width: 245px;
+  width: 243px;
   height: 30px;
   color: #080707;
   background-color: #4aaaa5;
@@ -99,8 +98,19 @@ input {
   text-align: center;
   position: absolute;
   top: 190px;
-  right: 0;
-  width: 250px;
+  right: 32px;
+  width: 245px;
+  height: 30px;
+  color: #0c0b0b;
+  background-color: #4aaaa5;
+}
+
+.captionC {
+  text-align: center;
+  position: absolute;
+  top: 450px;
+  /* left: 4px; */
+  width: 245px;
   height: 30px;
   color: #0c0b0b;
   background-color: #4aaaa5;
